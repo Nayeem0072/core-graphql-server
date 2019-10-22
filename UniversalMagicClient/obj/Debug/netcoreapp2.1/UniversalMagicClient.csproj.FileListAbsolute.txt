@@ -1,0 +1,14 @@
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\bin\Debug\netcoreapp2.1\UniversalMagicClient.deps.json
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\bin\Debug\netcoreapp2.1\UniversalMagicClient.runtimeconfig.json
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\bin\Debug\netcoreapp2.1\UniversalMagicClient.runtimeconfig.dev.json
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\bin\Debug\netcoreapp2.1\UniversalMagicClient.dll
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\obj\Debug\netcoreapp2.1\UniversalMagicClient.csprojAssemblyReference.cache
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\obj\Debug\netcoreapp2.1\UniversalMagicClient.csproj.CoreCompileInputs.cache
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\obj\Debug\netcoreapp2.1\UniversalMagicClient.RazorAssemblyInfo.cache
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\obj\Debug\netcoreapp2.1\UniversalMagicClient.RazorAssemblyInfo.cs
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\obj\Debug\netcoreapp2.1\UniversalMagicClient.AssemblyInfoInputs.cache
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\obj\Debug\netcoreapp2.1\UniversalMagicClient.AssemblyInfo.cs
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\obj\Debug\netcoreapp2.1\UniversalMagicClient.RazorTargetAssemblyInfo.cache
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\bin\Debug\netcoreapp2.1\UniversalMagicClient.pdb
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\obj\Debug\netcoreapp2.1\UniversalMagicClient.dll
+C:\Users\Nayeem\source\repos\UniversalMagicClient\UniversalMagicClient\obj\Debug\netcoreapp2.1\UniversalMagicClient.pdb
