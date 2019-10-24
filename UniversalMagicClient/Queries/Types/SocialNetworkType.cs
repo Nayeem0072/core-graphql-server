@@ -12,7 +12,6 @@ namespace UniversalMagicClient.Queries.Types
         public SocialNetworkType()
         {
             Field(x => x.NickName);
-            Field<EnumerationGraphType<SNType>>("type");
             Field(x => x.Url);
             Field<AuthorType>("author");
         }

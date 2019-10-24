@@ -6,11 +6,11 @@ using UniversalMagicClient.Entities;
 
 namespace UniversalMagicClient.Services
 {
-    public class BlogService
+    public class BlogService : IBlogService
     {
-        private readonly List<Author> authors = new List<Author>();
-        private readonly List<Post> posts = new List<Post>();
-        private readonly List<SocialNetwork> sns = new List<SocialNetwork>();
+        private List<Author> authors = new List<Author>();
+        private List<Post> posts = new List<Post>();
+        private List<SocialNetwork> sns = new List<SocialNetwork>();
 
         public BlogService()
         {
@@ -82,14 +82,12 @@ namespace UniversalMagicClient.Services
             posts.Add(VoiceCommands);
             SocialNetwork sn1 = new SocialNetwork()
             {
-                Type = SNType.INSTAGRAM,
                 Author = DinoEsposito,
                 NickName = "@dino",
                 Url = "https://#"
             };
             SocialNetwork sn2 = new SocialNetwork()
             {
-                Type = SNType.TWITTER,
                 Author = DinoEsposito,
                 NickName = "@dino",
                 Url = "https://#"
@@ -113,5 +111,12 @@ namespace UniversalMagicClient.Services
         {
             return sns.Where(sn => sn.Author.Id == id).ToList<SocialNetwork>();
         }
+        
+        public Author CreateAuthor(Author author)
+        {
+            this.authors.Add(author);
+            return author;
+        }
+
     }
 }

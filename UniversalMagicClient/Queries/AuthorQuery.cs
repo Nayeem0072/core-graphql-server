@@ -5,12 +5,13 @@ using System.Threading.Tasks;
 using GraphQL.Types;
 using UniversalMagicClient.Services;
 using UniversalMagicClient.Queries.Types;
+using UniversalMagicClient.Entities;
 
 namespace UniversalMagicClient.Queries
 {
     public class AuthorQuery : ObjectGraphType
     {
-        public AuthorQuery(BlogService blogService)
+        public AuthorQuery(IBlogService blogService)
         {
             Field<AuthorType>(
                 name: "author",
