@@ -13,6 +13,7 @@ namespace UniversalMagicClient.Queries
     {
         public AuthorQuery(IBlogService blogService)
         {
+            Name = "Query";
             Field<AuthorType>(
                 name: "author",
                 arguments: new QueryArguments(new QueryArgument<IntGraphType> { Name = "id" }),

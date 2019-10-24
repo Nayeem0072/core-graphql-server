@@ -14,24 +14,24 @@ namespace UniversalMagicClient.Services
 
         public BlogService()
         {
-            Author DinoEsposito = new Author
+            Author Abc = new Author
             {
                 Id = 1,
-                Name = "Dino Esposito",
-                Bio = "Dino Esposito has authored more than 20 books and 1,000 articles in ...",
-                ImgUrl = "https://secure.gravatar.com/avatar/ace158af8dfab0e682dcc70d965514e5?s=80&d=mm&r=g",
-                ProfileUrl = "https://www.red-gate.com/simple-talk/author/dino-esposito/"
+                Name = "abc",
+                Bio = "Wrote many books",
+                ImgUrl = "www.book.com/author/abc/img.jpg",
+                ProfileUrl = "www.book.com/author/abc/profile.jpg"
             };
-            Author LanceTalbert = new Author
+            Author Xyz = new Author
             {
                 Id = 2,
-                Name = "Lance Talbert",
-                Bio = "Lance Talbert is a budding game developer that has been learning to program since ...",
-                ImgUrl = "https://www.red-gate.com/simple-talk/wp-content/uploads/2018/01/red-gate-bio-pic.jpg",
-                ProfileUrl = "https://www.red-gate.com/simple-talk/author/lancetalbert/"
+                Name = "xyz",
+                Bio = "Had many blogs",
+                ImgUrl = "www.blog.com/blogger/xyz/img.jpg",
+                ProfileUrl = "www.blog.com/blogger/xyz/profile.jpg"
             };
-            authors.Add(DinoEsposito);
-            authors.Add(LanceTalbert);
+            authors.Add(Abc);
+            authors.Add(Xyz);
             Comment comment1 = new Comment
             {
                 Url = "https://#",
@@ -54,42 +54,42 @@ namespace UniversalMagicClient.Services
                 Percent = 95,
                 Count = 5
             };
-            Post FormsInVanilla = new Post
+            Post BookDesc = new Post
             {
                 Id = 1,
-                Title = "Building Better HTML Forms in Vanilla-JS",
-                Description = "Creating forms is one of the most basic skills for a web developer...",
+                Title = "How to book",
+                Description = "How to cook, except it's book",
                 Date = DateTime.Today,
-                Url = "https://www.red-gate.com/simple-talk/dotnet/net-development/building-better-html-forms-in-vanilla-js/",
-                Author = DinoEsposito,
+                Url = "www.book.com/author/abc/1",
+                Author = Abc,
                 Comments = new List<Comment>() { comment1 },
                 Rating = rating1,
-                Categories = new string[] { ".NET Development" }
+                Categories = new string[] { "Post Modern" }
             };
-            Post VoiceCommands = new Post
+            Post BlogDesc = new Post
             {
                 Id = 2,
-                Title = "Voice Commands in Unity",
-                Description = "Today, we use voice in many ways. We can order groceries...",
+                Title = "How to blog",
+                Description = "You have other options",
                 Date = DateTime.Today,
-                Url = "https://www.red-gate.com/simple-talk/dotnet/c-programming/voice-commands-in-unity/",
-                Author = LanceTalbert,
+                Url = "www.blog.com/blogger/xyz/1",
+                Author = Xyz,
                 Comments = new List<Comment>() { comment2 },
                 Rating = rating2,
-                Categories = new string[] { "C# programming" }
+                Categories = new string[] { "Happiness" }
             };
-            posts.Add(FormsInVanilla);
-            posts.Add(VoiceCommands);
+            posts.Add(BookDesc);
+            posts.Add(BlogDesc);
             SocialNetwork sn1 = new SocialNetwork()
             {
-                Author = DinoEsposito,
-                NickName = "@dino",
+                Author = Abc,
+                NickName = "@abc",
                 Url = "https://#"
             };
             SocialNetwork sn2 = new SocialNetwork()
             {
-                Author = DinoEsposito,
-                NickName = "@dino",
+                Author = Abc,
+                NickName = "@abc",
                 Url = "https://#"
             };
             sns.Add(sn1);
